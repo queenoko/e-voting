@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-Voting System</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/finesse.css" type="text/css" rel="stylesheet">
+        <link href="css/ev1.css" type="text/css" rel="stylesheet">
+        <link href="css/form.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/jpg" href="img/vt5.jpg"/>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h4> E-Voting System</h4></a>
+                <nav>
+                    <!--<a href="#" id="menu-icon"></a>-->
+                    <!-- Icon starts here-->
+              
+		<div id="container">
+  			<div id="menuToggle">
+    			<!--
+    			A fake / hidden checkbox is used as click reciever,
+    			so you can use the :checked selector on it.
+    			-->
+    		<input type="checkbox" />
+    
+    		<!--
+    		Some spans to act as a hamburger.
+    
+    		They are acting like a real hamburger,
+    		not that McDonalds stuff.
+    		-->
+    		<span></span>
+    		<span></span>
+    		<span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    	<ul id="menu">
+      		<!--<a href="#"><li><h4 style="font-family: sans-serif;">E-Voting System</h4></li></a> <hr>-->
+      		<a href="index.html"><li><i>Home</i></li></a><hr>
+      		<a href="form2.html.html"><li><i>Voter Registration</i></li></a><hr>
+      		<a href="foodsup.html"><li><i>Candididate</i></li></a><hr>
+      		<a href="equipment.html"><li><i>Vote</i></li></a><hr>
+      		<a href="personalT.html"><li><i>Voting Result</i></li></a><hr>
+      		<a href="advice.html"><li><i>About Us</i></li></a><hr>
+      		<a href="register.html"><li><i>Contact</i></li></a><hr>
+    	</ul>
+  			</div>
+              </div>
+  			</nav>
+                    <!-- Icon ends  here-->
+                    </nav>
+                    <div class="menu2" id="user">
+                        <ul>
+                            <li><i class="fa fa-user"><a href="form1.html">Login</a></i></li>
+                            <li><i class="fa fa-user-plus"><a href="form.html">sign up</a></i></li>
+                        </ul>
+                        
+                    </div>   
+                
+            </div>
+        </header> 
+
+        <div class="main1">
+            <div class="info">Sign Up here!</div>
+            <form action="#" method="post" name="form1" class="form-box">
+                <label for="name"><b>Surname:</b></label><br>
+                <input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+                <label><b>First Name</b></label>
+                <input type="text" placeholder="Enter First Name" class="inp" name="firstname" required>
+                <label><b>Middle Name</b></label>
+                <input type="text" placeholder="Enter Middle Name"class="inp" name="midname" required>
+                <label for="email"><b>Email ID:</b></label><br>
+                <input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+                <label for="phone"><b>Phone:</b></label><br>
+                <input type="tel" name="phone" class="inp" placeholder="Enter your Phone No" required><br>
+                <label><b>sex</b></label><br /><BR />
+		        <input type="radio" name="gender">
+		        Male
+		        <input type="radio" name="gender">
+		        Female
+                <br /><br />
+                <label><b>Date of Birth:</b></label>
+	            <input type="date" name="db" class="inp" placeholder="Date" required>
+                <br />
+                <label for="message">Address</label><br>
+                <textarea name="msg" id="msg-box" placeholder="Enter Your Message Here..."></textarea><br>
+                <label><b>State of Origin:</b></label>
+	            <select class="inp" name="state">
+	            <option value="Select">Select One</option>
+	            <option value="Abia">Abia</option>
+	            <option value="Adamawa">Adamawa</option>
+	            <option value="Akwa Ibom">Akwa Ibom</option>
+	            <option value="Anambra">Anambra</option>
+	            <option value="Bauchi">Bauchi</option>
+                <option value="Bayelsa">Bayelsa</option>
+                <option value="Benue">Benue</option>
+                <option value="Borno">Borno</option>
+                <option value="Cross River">Cross River</option>
+                <option value="Delta">Delta</option>
+                <option value="Ebonyi">Ebonyi</option>
+                <option value="Edo">Edo</option>
+                <option value="Ekiti">Ekiti</option>
+                <option value="Enugu">Enugu</option>
+                <option value="Gombe">Gombe</option>
+                <option value="Imo">Imo</option>
+                <option value="Jigawa">Jigawa</option>
+                <option value="Kastina">Kastina</option>
+                <option value="Kaduna">Kaduna</option>
+                <option value="Kano">Kano</option>
+                <option value="Kebbi">Kebbi</option>
+                <option value="Kogi">Kogi</option>
+                <option value="Kwara">Kwara</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Nasarawa">Nasarawa</option>
+                <option value="Niger">Niger</option>
+                <option value="Ogun">Ogun</option>
+                <option value="Ondo">Ondo</option>
+                <option value="Osun">Osun</option>
+                <option value="Oyo">Oyo</option>
+                <option value="Plateau">Plateau</option>
+                <option value="Rivers">Rivers</option>
+                <option value="Sokoto">Sokoto</option>
+                <option value="Taraba">Taraba</option>
+                <option value="Yobe">Yobe</option>
+                <option value="Zamfara">Zamfara</option>
+	        </select>
+                <br />
+                <label><b>School Level:</b></label>
+	            <select class="inp" name="state">
+	            <option value="Select">Select One</option>
+	            <option value="Diploma">Diploma</option>
+	            <option value="College of Education">College of Education</option>
+	            <option value="Polytechnic">Polytechnic</option>
+	            <option value="University">University</option>
+	        </select>
+                <label><b>Occupation:</b></label>
+	            <select class="inp" name="occp">
+	            <option value="Select">Select One</option>
+	            <option value="Student">Student</option>
+	            <option value="Civil Servant">Civil Servant</option>
+	            <option value="Business Man">Business Man</option>
+	            <option value="Unemployed">Unemployed</option>
+                <option value="Others">Others</option>
+	        </select>
+                <label for="email"><b>Username:</b></label><br>
+                <input type="text" name="user" class="inp" placeholder="Enter Your Username" required><br>
+                <label><b>Password:</b></label>
+                <input type="password" class="inp" placeholder="Enter Password" name="psw" required>
+                <label><b>Repeat Password:</b></label>
+                <input type="password" class="inp" placeholder="Repeat Password" name="psw-repeat" required>
+                <input type="checkbox" checked="checked"> Remember me
+                <p id="tem"><input type="checkbox"0 checked="checked"> I agree By creating an account to our <a href="#">Terms & Privacy</a>.</p>
+                <input type="submit" name="submit" value="send" class="sub-btn">
+            </form>
+        </div>
+         <footer>
+          <ul class="social">
+              <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+      </footer>
+  <!--END OF FOOTER-->  
+     <footer class="second">
+         <p>&copy; 2018 || E-Votting System</p>
+     </footer>  
+<!--END SECOND FOOTER-->
+    </body>
+</html>
